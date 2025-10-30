@@ -1,1 +1,18 @@
 @import "tailwindcss";
+
+
+.nav-bar {
+    position: fixed;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    z-index: 50;
+}
+
+.home-section {
+    /* background: linear-gradient(90deg, rgba(29, 29, 51, 1) 0%, rgba(23, 23, 156, 1) 19%, rgba(138, 38, 163, 1) 100%) */
+}
+
+html {
+  scroll-behavior: smooth;
+}
